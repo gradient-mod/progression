@@ -1,0 +1,10 @@
+{
+  "age.1": "Nomadic (Age 1)",
+  "age.2": "Agricultural (Age 2)",
+  "age.3": "Bronze (Age 3)",
+  "age.4": "Industrial (Age 4)",
+  "commands.getage.get": "%s's age is %s",
+  "commands.setage.set": "Your age is now %s",
+  "commands.setage.set_other": "%s's age is now %s",
+  "jei.age.requirement": "Requires %s"
+}

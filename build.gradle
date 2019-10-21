@@ -159,7 +159,12 @@ publishing {
   }
   repositories {
     maven {
-      url "file:///${project.projectDir}/mcmodsrepo"
+      name = "GitHubPackages"
+      url = uri("https://maven.pkg.github.com/gradient-mod/progression")
+      credentials {
+        username = project.findProperty("gpr.user") ?: System.getenv("GPR_USER")
+        password = project.findProperty("gpr.key") ?: System.getenv("GPR_API_KEY")
+      }
     }
   }
 }

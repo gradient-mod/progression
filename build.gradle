@@ -22,7 +22,7 @@ configFile.withReader {
 
 version = config.version
 group = 'gradient-mod' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'progression'
+archivesBaseName = 'gradient-progression'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -81,7 +81,7 @@ minecraft {
       // Recommended logging level for the console
       property 'forge.logging.console.level', 'debug'
 
-      args '--mod', 'progression', '--all', '--output', file('src/generated/resources/')
+      args '--mod', 'gradient-progression', '--all', '--output', file('src/generated/resources/')
 
       mods {
         examplemod {

@@ -15,7 +15,7 @@ displayName="Gradient Progression" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 #TODO updateJSONURL="http://myurl.me/" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/gradient-mod/no-tools/" #optional
+displayURL="https://github.com/gradient-mod/progression/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 #TODO logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
@@ -24,7 +24,7 @@ displayURL="https://github.com/gradient-mod/no-tools/" #optional
 authors="Corey Frenette (LordMonoxide)" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-A highly-configrable mod that prevents using specific tools.
+Age-based player progression for Gradient. Supports age-gated recipes.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.gradient-progression]] #optional
